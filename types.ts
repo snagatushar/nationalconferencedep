@@ -1,0 +1,28 @@
+
+export enum Profession {
+  RESEARCH_SCHOLAR = 'Research Scholar',
+  ACADEMICIAN_FACULTY = 'Academician/Faculty',
+  OBSERVER = 'Observer'
+}
+
+export interface RegistrationData {
+  fullName: string;
+  mobile: string;
+  email: string;
+  profession: Profession;
+  idCardBase64?: string;
+  amount: number;
+}
+
+export interface RegistrationResult extends RegistrationData {
+  registrationId: string;
+  paymentId: string;
+  paymentDate: string;
+}
+
+export interface AbstractData {
+  registrationId: string;
+  title: string;
+  fileBase64: string;
+  fileName: string;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Bharat Synapse @2047 - National Conference",
+  "description": "A professional academic conference platform with registration, Razorpay integration, and automated abstract submission.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
