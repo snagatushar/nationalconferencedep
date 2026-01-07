@@ -15,41 +15,30 @@ const Landing: React.FC = () => {
   return (
     <div className="relative scroll-smooth">
       {/* Hero Section */}
-      <div className="relative bg-blue-900 text-white overflow-hidden">
-        <div className="absolute inset-0 opacity-20">
+      <div className="relative bg-gray-900 text-white overflow-hidden min-h-screen flex items-center">
+        <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1540575861501-7ce0e220bee2?auto=format&fit=crop&q=80&w=2000" 
+            src="/thumbnail2.png" 
             alt="Conference Background" 
             className="w-full h-full object-cover"
           />
+          <div className="absolute inset-0 bg-black/60"></div>
         </div>
-        <div className="relative max-w-7xl mx-auto px-4 py-24 sm:px-6 lg:px-8 flex flex-col items-center text-center">
-          <p className="text-blue-200 font-semibold tracking-widest uppercase text-sm mb-4 animate-fade-in">
-            {CONFERENCE_INFO.type}
-          </p>
-          <h1 className="text-5xl md:text-7xl font-extrabold mb-6 serif tracking-tight">
-            {CONFERENCE_INFO.title}
-          </h1>
-          <h2 className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl font-light italic">
-            "{CONFERENCE_INFO.subtitle}"
-          </h2>
-          
-          <div className="bg-white/10 backdrop-blur-md p-6 rounded-2xl mb-12 inline-flex flex-wrap gap-8 justify-center border border-white/20 shadow-2xl">
-            <div className="text-left">
-              <p className="text-blue-300 text-[10px] uppercase font-bold tracking-widest">Date</p>
-              <p className="text-lg font-medium">{CONFERENCE_INFO.dates}</p>
-            </div>
-            <div className="text-left border-l border-white/20 pl-8 hidden sm:block">
-              <p className="text-blue-300 text-[10px] uppercase font-bold tracking-widest">Venue</p>
-              <p className="text-lg font-medium">{CONFERENCE_INFO.venue}</p>
-            </div>
-            <div className="text-left border-l border-white/20 pl-8 hidden md:block">
-              <p className="text-blue-300 text-[10px] uppercase font-bold tracking-widest">Mode</p>
-              <p className="text-lg font-medium">{CONFERENCE_INFO.mode}</p>
-            </div>
+        <div className="relative max-w-7xl mx-auto px-4 py-24 pt-32 sm:px-6 lg:px-8 flex flex-col items-center text-center w-full min-h-screen justify-between">
+          <div className="flex flex-col items-center justify-center flex-grow">
+            <p className="text-blue-200 font-semibold tracking-widest uppercase text-sm mb-4 animate-fade-in">
+              {CONFERENCE_INFO.type}
+            </p>
+            <h1 className="text-5xl md:text-7xl font-extrabold mb-6 serif tracking-tight">
+              {CONFERENCE_INFO.title}
+            </h1>
+            <h2 className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl font-light italic">
+              "{CONFERENCE_INFO.subtitle}"
+            </h2>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-6">
+          <div className="flex flex-col sm:flex-row gap-6 pb-12">
+           
             <Link 
               to="/register" 
               className="px-10 py-4 bg-blue-600 text-white rounded-full font-bold hover:bg-blue-700 transition-all shadow-[0_0_20px_rgba(37,99,235,0.4)] transform hover:scale-105"

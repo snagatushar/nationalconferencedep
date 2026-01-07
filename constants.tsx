@@ -4,7 +4,7 @@ import React from 'react';
 export const CONFERENCE_INFO = {
   title: "Bharat Synapse @2047",
   subtitle: "Contours of a future-ready bharat",
-  type: "1st National Conference on National Interdisciplinary Academic Conference",
+  type: "1st National Conference on National Interdisciplinary Conference",
   organizedBy: "IFIM School of Technology, IFIM College",
   venue: "IFIM College, Bengaluru",
   dates: "5–6 March, 2026",
