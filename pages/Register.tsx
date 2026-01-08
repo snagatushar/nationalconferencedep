@@ -172,7 +172,7 @@ const Register: React.FC<RegisterProps> = ({ onComplete }) => {
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-md w-full bg-white p-10 rounded-3xl shadow-xl border border-gray-100">
+      <div className="max-w-md w-full bg-white p-10 rounded-3xl shadow-xl border border-gray-100" id="registration-form">
         <div className="text-center mb-10">
           <h2 className="text-3xl font-extrabold text-gray-900 serif">Register Now</h2>
           <p className="mt-2 text-sm text-gray-500 italic">Bharat Synapse @2047 Conference</p>
