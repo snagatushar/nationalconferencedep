@@ -159,21 +159,34 @@ const Landing: React.FC = () => {
         <section className="py-24 bg-gray-50">
           <div className="max-w-7xl mx-auto px-6 text-center">
             <h2 className="text-3xl font-bold text-gray-900 serif">Registration Fee</h2>
-            <div className="mt-10 grid md:grid-cols-3 gap-8 max-w-5xl mx-auto items-stretch">
-              <div className="p-8 bg-white rounded-3xl border-2 border-amber-400 shadow-lg">
-                <h4 className="text-gray-700 uppercase text-xs font-bold tracking-widest mb-4">Research Scholar</h4>
-                <p className="text-4xl font-extrabold mb-6">₹{FEES['Research Scholar']}</p>
-                <Link to="/register" className="block w-full py-3 rounded-xl border-2 border-amber-400 text-amber-700 font-bold bg-white hover:bg-amber-50 transition-colors">Select Category</Link>
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto items-stretch">
+              <div className="p-8 bg-white rounded-3xl border-2 border-amber-400 shadow-lg flex flex-col justify-between">
+                <div>
+                  <h4 className="text-gray-700 uppercase text-xs font-bold tracking-widest mb-4">Research Scholar</h4>
+                  <p className="text-4xl font-extrabold mb-6">₹{FEES['Research Scholar']}</p>
+                </div>
+                <Link to={`/register?profession=${encodeURIComponent('Research Scholar')}`} className="block w-full py-3 rounded-xl border-2 border-amber-400 text-amber-700 font-bold bg-white hover:bg-amber-50 transition-colors">Select Category</Link>
               </div>
-              <div className="p-8 rounded-3xl bg-gradient-to-b from-amber-400 to-amber-600 text-white shadow-2xl transform md:scale-110 z-10">
-                <h4 className="uppercase text-xs font-bold tracking-widest mb-4">Academician/Faculty</h4>
-                <p className="text-4xl font-extrabold mb-6">₹{FEES['Academician/Faculty']}</p>
-                <Link to="/register" className="block w-full py-3 rounded-xl bg-amber-700/30 text-white font-bold border border-amber-700/20 hover:bg-amber-700/40 transition-colors">Select Category</Link>
+              <div className="p-8 bg-white rounded-3xl border-2 border-amber-400 shadow-lg flex flex-col justify-between">
+                <div>
+                  <h4 className="text-gray-700 uppercase text-xs font-bold tracking-widest mb-4">Academician/Faculty</h4>
+                  <p className="text-4xl font-extrabold mb-6">₹{FEES['Academician/Faculty']}</p>
+                </div>
+                <Link to={`/register?profession=${encodeURIComponent('Academician/Faculty')}`} className="block w-full py-3 rounded-xl border-2 border-amber-400 text-amber-700 font-bold bg-white hover:bg-amber-50 transition-colors">Select Category</Link>
               </div>
-              <div className="p-8 bg-white rounded-3xl border-2 border-amber-400 shadow-lg">
-                <h4 className="text-gray-700 uppercase text-xs font-bold tracking-widest mb-4">Observer</h4>
-                <p className="text-4xl font-extrabold mb-6">₹{FEES['Observer']}</p>
-                <Link to="/register" className="block w-full py-3 rounded-xl border-2 border-amber-400 text-amber-700 font-bold bg-white hover:bg-amber-50 transition-colors">Select Category</Link>
+              <div className="p-8 bg-white rounded-3xl border-2 border-amber-400 shadow-lg flex flex-col justify-between">
+                <div>
+                  <h4 className="text-gray-700 uppercase text-xs font-bold tracking-widest mb-4">Observer</h4>
+                  <p className="text-4xl font-extrabold mb-6">₹{FEES['Observer']}</p>
+                </div>
+                <Link to={`/register?profession=${encodeURIComponent('Observer')}`} className="block w-full py-3 rounded-xl border-2 border-amber-400 text-amber-700 font-bold bg-white hover:bg-amber-50 transition-colors">Select Category</Link>
+              </div>
+              <div className="p-8 bg-white rounded-3xl border-2 border-amber-400 shadow-lg flex flex-col justify-between">
+                <div>
+                  <h4 className="text-gray-700 uppercase text-xs font-bold tracking-widest mb-4">Industry Delegates</h4>
+                  <p className="text-4xl font-extrabold mb-6">₹{FEES['Industry Delegates']}</p>
+                </div>
+                <Link to={`/register?profession=${encodeURIComponent('Industry Delegates')}`} className="block w-full py-3 rounded-xl border-2 border-amber-400 text-amber-700 font-bold bg-white hover:bg-amber-50 transition-colors">Select Category</Link>
               </div>
             </div>
             <p className="mt-8 text-gray-500 text-sm italic">* Certificates will be awarded for Participation, Paper Presentation, and Session Chair roles.</p>

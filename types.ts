@@ -2,7 +2,8 @@
 export enum Profession {
   RESEARCH_SCHOLAR = 'Research Scholar',
   ACADEMICIAN_FACULTY = 'Academician/Faculty',
-  OBSERVER = 'Observer'
+  OBSERVER = 'Observer',
+  INDUSTRY_DELEGATES = 'Industry Delegates'
 }
 
 export interface RegistrationData {

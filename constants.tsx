@@ -58,7 +58,8 @@ export const IMPORTANT_DATES = [
 export const FEES = {
   [ 'Research Scholar' ]: 1000,
   [ 'Academician/Faculty' ]: 1500,
-  [ 'Observer' ]: 500
+  [ 'Observer' ]: 500,
+  [ 'Industry Delegates' ]: 3000
 };
 
 export const TRACKS = [

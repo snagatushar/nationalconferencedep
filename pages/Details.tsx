@@ -186,6 +186,10 @@ const Details: React.FC = () => {
                 <span className="font-medium">Observer</span>
                 <span className="text-2xl font-bold text-blue-200">₹{FEES['Observer']}</span>
              </div>
+             <div className="flex justify-between items-center p-4 bg-white/10 rounded-2xl border border-white/10">
+                <span className="font-medium">Industry Delegates</span>
+                <span className="text-2xl font-bold text-blue-200">₹{FEES['Industry Delegates']}</span>
+             </div>
           </div>
           <p className="mt-8 text-center text-xs text-blue-300 italic">
             * Registration includes conference kit, certificate, and participation in all sessions.

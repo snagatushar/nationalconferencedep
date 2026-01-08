@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { Profession, RegistrationData, RegistrationResult } from '../types';
 import { FEES } from '../constants';
 import { supabase } from '../supabaseClient';
@@ -9,17 +10,28 @@ interface RegisterProps {
 }
 
 const Register: React.FC<RegisterProps> = ({ onComplete }) => {
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const professionParam = queryParams.get('profession') as Profession | null;
+  const initialProfession = professionParam && Object.values(Profession).includes(professionParam) 
+    ? professionParam 
+    : Profession.RESEARCH_SCHOLAR;
+
   const [formData, setFormData] = useState<RegistrationData>({
     fullName: '',
     mobile: '',
     email: '',
-    profession: Profession.RESEARCH_SCHOLAR,
-    amount: FEES[Profession.RESEARCH_SCHOLAR]
+    profession: initialProfession,
+    amount: FEES[initialProfession]
   });
 
   const [idCardFile, setIdCardFile] = useState<File | null>(null);
   const [isProcessing, setIsProcessing] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   useEffect(() => {
     setFormData(prev => ({
