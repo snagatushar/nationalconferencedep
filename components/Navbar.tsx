@@ -33,13 +33,13 @@ const Navbar: React.FC<NavbarProps> = ({ isRegistered }) => {
             <Link to="/" className={linkClass('/')}>Home</Link>
             <Link to="/details" className={linkClass('/details')}>Details</Link>
             {!isRegistered ? (
-              <Link to="/register" className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-blue-700 transition-colors">
+              <Link to="/register" className="bg-amber-400 text-blue-900 px-4 py-2 rounded-md text-sm font-semibold hover:bg-amber-500 transition-colors">
                 Register / Login
               </Link>
             ) : (
               <>
                 <Link to="/success" className={linkClass('/success')}>Ticket</Link>
-                <Link to="/abstract" className="bg-green-600 text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-green-700 transition-colors">
+                <Link to="/abstract" className="bg-amber-400 text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-amber-500 transition-colors">
                   Upload Abstract
                 </Link>
               </>

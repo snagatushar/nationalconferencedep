@@ -41,7 +41,7 @@ const Landing: React.FC = () => {
            
             <Link 
               to="/register" 
-              className="px-10 py-4 bg-blue-600 text-white rounded-full font-bold hover:bg-blue-700 transition-all shadow-[0_0_20px_rgba(37,99,235,0.4)] transform hover:scale-105"
+              className="px-10 py-4 bg-amber-400 text-white rounded-full font-bold hover:bg-blue-700 transition-all shadow-[0_0_20px_rgba(37,99,235,0.4)] transform hover:scale-105"
             >
               Register Now
             </Link>

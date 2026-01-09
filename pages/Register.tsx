@@ -131,6 +131,37 @@ const Register: React.FC<RegisterProps> = ({ onComplete }) => {
     });
   };
 
+  const loadRazorpayCheckout = (): Promise<void> => {
+    return new Promise((resolve, reject) => {
+      if ((window as any).Razorpay) {
+        resolve();
+        return;
+      }
+
+      const existingScript = document.querySelector(
+        'script[data-razorpay-checkout="true"]'
+      ) as HTMLScriptElement | null;
+
+      if (existingScript) {
+        existingScript.addEventListener('load', () => resolve(), { once: true });
+        existingScript.addEventListener('error', () => reject(new Error('Failed to load Razorpay')), { once: true });
+        return;
+      }
+
+      const checkoutUrl =
+        (import.meta.env.VITE_RAZORPAY_CHECKOUT_URL as string) ||
+        'https://checkout.razorpay.com/v1/checkout.js';
+
+      const script = document.createElement('script');
+      script.src = checkoutUrl;
+      script.async = true;
+      script.setAttribute('data-razorpay-checkout', 'true');
+      script.onload = () => resolve();
+      script.onerror = () => reject(new Error('Failed to load Razorpay'));
+      document.head.appendChild(script);
+    });
+  };
+
   const processPayment = async () => {
     const errorMsg = validateRegistration();
     if (errorMsg) {
@@ -163,6 +194,12 @@ const Register: React.FC<RegisterProps> = ({ onComplete }) => {
     }
 
     try {
+      await loadRazorpayCheckout();
+
+      if (!(window as any).Razorpay) {
+        throw new Error('Razorpay not available after script load');
+      }
+
       const options = {
         key: razorpayKey,
         amount: formData.amount * 100,
