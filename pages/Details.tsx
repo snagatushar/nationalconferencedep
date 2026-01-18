@@ -266,7 +266,7 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
  change in the institute. By fostering a culture of innovation, collaboration, personal
  growth, and adaptability, the institute can experience significant growth and development
  under his guidance
-            </p>
+            </p><br></br>
              <p className="text-black leading-relaxed text-justify">
             Prof. Das also holds honorary positions as Adjunct Professor, Houston Methodist
  Research Institute, Houston, USA, and Adjunct Professor, Shoochow University,
