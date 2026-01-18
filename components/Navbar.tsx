@@ -64,7 +64,7 @@ const Navbar: React.FC = () => {
               rel="noopener noreferrer"
               className="bg-amber-400 text-blue-900 px-4 py-2 rounded-md text-sm font-semibold hover:bg-amber-500 transition-colors"
             >
-              Register / Login
+              Register 
             </a>
             <a
               href={IFIM_URL}
