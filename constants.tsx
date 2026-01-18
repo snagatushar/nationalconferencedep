@@ -18,12 +18,12 @@ export const CONFERENCE_INFO = {
 };
 
 const CHIEF_PATRONS = [
-  { name: "Mr. Sanjay Padode", role: "Chairman, CDE", photo: "/thumbnail.png" },
-  { name: "Mrs. Kalpana Padode", role: "Secretary, CDE", photo: "/thumbnail1.png" },
-  { name: "Pranav Padode", role: "Chief Executive Officer", photo: "/thumbnail2.png" },
-  { name: "Kritika Padode Bhandari", role: "Founding Team Member", photo: "/thumbnail.png" },
-  { name: "Edwin Moses", role: "Chief Executive Officer, CDE", photo: "/thumbnail1.png" },
-  { name: "Dr. A V Arun Kumar", role: "Director, IFIM College", photo: "/thumbnail2.png" }
+  { name: "Mr. Sanjay Padode", role: "Chairman, CDE", photo: "/sanjaysir.jpeg" },
+  { name: "Mrs. Kalpana Padode", role: "Secretary, CDE", photo: "/kalpanamam.jpeg" },
+  { name: "Pranav Padode", role: "Chief Executive Officer", photo: "/pranavsir.jpeg" },
+  { name: "Kritika Padode Bhandari", role: "Founding Team Member", photo: "/kritikamam.jpeg" },
+  { name: "Edwin Moses", role: "Chief Executive Officer, CDE", photo: "/edwin.jpeg" },
+  { name: "Dr. A V Arun Kumar", role: "Director, IFIM College", photo: "/arun.jpeg" }
 ];
 
 export const PATRONAGE = {
@@ -43,21 +43,21 @@ export const PATRONAGE = {
     { name: "Prof. Swarnika Dixit", role: "Asst. Dean, BBA-B.COM, IFIM College", photo: "/Swarnika.webp" },
     { name: "Dr. H.S. Gitanjali", role: "Program Head, B.COM, IFIM College", photo: "/Dr-H.S.-Gitanjali-Shankarappa .webp" },
     { name: "Dr. Sathya Thangavel", role: "HOD, Language Dept, IFIM College", photo: "/english.webp" },
-    { name: "Dr. Nataraja N S", role: "Area Chair, Analytics, IFIM College", photo: "/ns .webp" },
+    { name: "Dr. Nataraja N S", role: "Area Chair, Analytics, IFIM College", photo: "/ns.webp" },
     { name: "Prof. Nikil Gupta", role: "Professor of Practice, IFIM College", photo: "/Prof-Nikhil-Gupta- .webp" },
     { name: "Prof. Pooja Ogale", role: "Asst. Professor, IFIM Law College", photo: "/Pooja-Ogle-Law-265x300.jpg" }
   ],
   organizingCommittee: [
-    { name: "Dr. Raj Kumar", role: "Organizing Committee Member, IFIM College", photo: "/raj.webp" },
-    { name: "Dr. Anant Jain", role: "Organizing Committee Member, IFIM College", photo: "/jain.jpeg" },
-    { name: "Dr. Arpit D Yadav", role: "Organizing Committee Member, IFIM College", photo: "/Arpit-Yadav_.jpg" },
-    { name: "Dr. Ajit M", role: "Organizing Committee Member, IFIM College", photo: "/thumbnail.png" },
-    { name: "Prof. Parth Saarthi", role: "Organizing Committee Member, IFIM College", photo: "/parth.jpeg" },
-    { name: "Prof. Haritha", role: "Organizing Committee Member, IFIM College", photo: "/thumbnail2.png" },
-    { name: "Prof. Sinzy Silvester", role: "Organizing Committee Member, IFIM College", photo: "/Prof.-Sinzy-Silvester .webp" },
-    { name: "Prof. Lakshmi Saranya", role: "Organizing Committee Member, IFIM College", photo: "/S-Lakshmi-Saranya-265x300.jpg" },
-    { name: "Prof. Dilip B", role: "Organizing Committee Member, IFIM College", photo: "/Prof-Dilip-B.webp" },
-    { name: "Prof. Sumiya", role: "Organizing Committee Member, IFIM College", photo: "/thumbnail.png" }
+    { name: "Dr. Raj Kumar", role: "", photo: "/raj.webp" },
+    { name: "Dr. Anant Jain", role: "", photo: "/jain.jpeg" },
+    { name: "Dr. Arpit D Yadav", role: "", photo: "/Arpit-Yadav_.jpg" },
+    { name: "Dr. Ajit M", role: "", photo: "/thumbnail.png" },
+    { name: "Prof. Parth Saarthi", role: "", photo: "/parth.jpeg" },
+    { name: "Prof. Haritha", role: "", photo: "/thumbnail2.png" },
+    { name: "Prof. Sinzy Silvester", role: "", photo: "/Prof.-Sinzy-Silvester .webp" },
+    { name: "Prof. Lakshmi Saranya", role: "", photo: "/S-Lakshmi-Saranya-265x300.jpg" },
+    { name: "Prof. Dilip B", role: "", photo: "/Prof-Dilip-B.webp" },
+    { name: "Prof. Sumiya", role: "", photo: "/thumbnail.png" }
   ]
 };
 

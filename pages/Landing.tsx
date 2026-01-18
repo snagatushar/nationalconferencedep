@@ -270,7 +270,7 @@ const Landing: React.FC = () => {
                     key={i}
                     onClick={() => setPatronSlide(i)}
                     className={`h-2 w-2 rounded-full ${
-                      i === patronSlide ? 'bg-blue-900' : 'bg-gray-300'
+                      i === patronSlide ? 'bg-amber-400' : 'bg-gray-300'
                     }`}
                   />
                 ))}
@@ -278,7 +278,7 @@ const Landing: React.FC = () => {
             </div>
             
             <div className="mt-16 text-center">
-               <Link to="/details" className="text-amber-400 font-bold hover:underline decoration-blue-900 decoration-2 underline-offset-4">
+               <Link to="/details" className="text-amber-400 font-bold hover:underline decoration-amber-400 decoration-2 underline-offset-4">
                  View All Chairs & General Committees
                </Link>
             </div>
