@@ -10,8 +10,14 @@ const IFIM_URL = 'https://ifim.edu.in/';
 const Navbar: React.FC = () => {
   const location = useLocation();
   const [onLightBackground, setOnLightBackground] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const isActive = (path: string) => location.pathname === path;
+
+  // Close menu when route changes
+  useEffect(() => {
+    setIsMenuOpen(false);
+  }, [location.pathname]);
 
   useEffect(() => {
     if (location.pathname !== '/') {
@@ -43,7 +49,17 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent border-none shadow-none">
-      <div className="max-w-7xl mx-auto pl-2 pr-4 sm:px-6 lg:px-8">
+      {/* Mobile Menu Overlay */}
+      <div 
+        className={`fixed inset-0 bg-black/50 backdrop-blur-sm transition-opacity duration-300 md:hidden ${
+          isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+        }`}
+        onClick={() => setIsMenuOpen(false)}
+      />
+
+      <div className={`relative max-w-7xl mx-auto pl-2 pr-4 sm:px-6 lg:px-8 transition-all duration-300 ${
+        isMenuOpen ? 'bg-white shadow-lg' : ''
+      } ${onLightBackground && !isMenuOpen ? 'bg-white/90 backdrop-blur-md shadow-sm' : ''}`}>
         <div className="flex justify-between items-center h-24">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center gap-3">
@@ -51,11 +67,12 @@ const Navbar: React.FC = () => {
                 src="/logoviksit.png"
                 alt="Viksit Bharat Logo"
                 className="h-23 w-24 md:h-26 md:w-26" 
-                // object-contain rounded transition-all"
               />
             </Link>
           </div>
-          <div className="flex items-center space-x-4">
+
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex items-center space-x-4">
             <Link to="/" className={linkClass('/')}>Home</Link>
             <Link to="/details" className={linkClass('/details')}>Details</Link>
             <a
@@ -75,8 +92,72 @@ const Navbar: React.FC = () => {
               <img
                 src="/logo.png"
                 alt="IFIM Institutions"
-                className="h-12 w-12 md:h-14 md:w-14 "
+                className="h-14 w-14"
               />
+            </a>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <div className="md:hidden flex items-center gap-4">
+            <a
+              href={IFIM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center"
+            >
+              <img
+                src="/logo.png"
+                alt="IFIM Institutions"
+                className="h-12 w-12"
+              />
+            </a>
+            <button
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className={`p-2 rounded-md transition-colors ${
+                onLightBackground || isMenuOpen ? 'text-gray-900 hover:bg-gray-100' : 'text-white hover:bg-white/10'
+              }`}
+            >
+              {isMenuOpen ? (
+                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              ) : (
+                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              )}
+            </button>
+          </div>
+        </div>
+
+        {/* Mobile Navigation Menu */}
+        <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
+          isMenuOpen ? 'max-h-64 opacity-100 pb-4' : 'max-h-0 opacity-0'
+        }`}>
+          <div className="flex flex-col space-y-2 px-2 pt-2">
+            <Link 
+              to="/" 
+              className={`block px-3 py-2 rounded-md text-base font-medium ${
+                isActive('/') ? 'bg-amber-50 text-amber-900' : 'text-gray-700 hover:bg-gray-50'
+              }`}
+            >
+              Home
+            </Link>
+            <Link 
+              to="/details" 
+              className={`block px-3 py-2 rounded-md text-base font-medium ${
+                isActive('/details') ? 'bg-amber-50 text-amber-900' : 'text-gray-700 hover:bg-gray-50'
+              }`}
+            >
+              Details
+            </Link>
+            <a
+              href={GOOGLE_FORM_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block px-3 py-2 rounded-md text-base font-medium text-white bg-amber-400 hover:bg-amber-500 text-center mt-4"
+            >
+              Register Now
             </a>
           </div>
         </div>

@@ -41,29 +41,29 @@ const Landing: React.FC = () => {
         </div>
         <div className="relative max-w-7xl mx-auto px-4 py-24 pt-32 sm:px-6 lg:px-8 flex flex-col items-center text-center w-full min-h-screen justify-between">
           <div className="flex flex-col items-center justify-center flex-grow">
-            <p className="text-blue-200 font-semibold tracking-widest uppercase text-sm mb-4 animate-fade-in">
+            <p className="text-blue-200 font-semibold tracking-widest uppercase text-xs sm:text-sm mb-4 animate-fade-in">
               {CONFERENCE_INFO.type}
             </p>
-            <h1 className="text-5xl md:text-7xl font-extrabold mb-6 serif tracking-tight">
+            <h1 className="text-3xl sm:text-5xl md:text-7xl font-extrabold mb-6 serif tracking-tight">
               {CONFERENCE_INFO.title}
             </h1>
-            <h2 className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl font-light italic">
+            <h2 className="text-lg sm:text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl font-light italic">
               "{CONFERENCE_INFO.subtitle}"
             </h2>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-6 pb-12">
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 pb-12 w-full sm:w-auto px-4 sm:px-0">
             <a
               href={GOOGLE_FORM_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-10 py-4 bg-amber-400 text-white rounded-full font-bold hover:bg-blue-700 transition-all shadow-[0_0_20px_rgba(37,99,235,0.4)] transform hover:scale-105"
+              className="px-6 py-3 sm:px-10 sm:py-4 bg-amber-400 text-white rounded-full font-bold hover:bg-blue-700 transition-all shadow-[0_0_20px_rgba(37,99,235,0.4)] transform hover:scale-105 text-center"
             >
               Register Now
             </a>
             <button 
               onClick={scrollToDetails}
-              className="px-10 py-4 bg-white/10 text-white backdrop-blur-sm rounded-full font-bold hover:bg-white/20 transition-all border border-white/30 transform hover:scale-105"
+              className="px-6 py-3 sm:px-10 sm:py-4 bg-white/10 text-white backdrop-blur-sm rounded-full font-bold hover:bg-white/20 transition-all border border-white/30 transform hover:scale-105 text-center"
             >
               View Details
             </button>
