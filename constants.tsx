@@ -51,7 +51,7 @@ export const PATRONAGE = {
     
     { name: "Prof. Dr. Sakkthivel Annamalai Manickam", role: "Dean of Management, IFIM College", photo: "/Prof.-Dr.-A.-M.-Sakkthivel.webp" },
     { name: "Dr. Salur Srikant Patnaik", role: "Dean of School of Technology, IFIM College", photo: "/srikanth.png" },
-    { name: "Dr. Sridevi Varanasi", role: "Principal and Director, IFIM College", photo: "/Sridevi.webp" },
+    { name: "Dr. Sridevi Varanasi", role: "Academic Dean, JAGSoM", photo: "/Sridevi.webp" },
     { name: "Dr. Aswini Patro", role: "Principal, IFIM Law College", photo: "/aswini.webp" }
   ],
   conferenceChairs: [
