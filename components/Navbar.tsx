@@ -64,9 +64,9 @@ const Navbar: React.FC = () => {
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center gap-3">
               <img
-                src="/logoviksit.png"
+                src="/vik2.png"
                 alt="Viksit Bharat Logo"
-                className="h-23 w-24 md:h-26 md:w-26" 
+                className="h-25 w-40 md:h-26 md:w-26" 
               />
             </Link>
           </div>
@@ -92,7 +92,7 @@ const Navbar: React.FC = () => {
               <img
                 src="/logo.png"
                 alt="IFIM Institutions"
-                className="h-14 w-14"
+                className="h-20 w-20"
               />
             </a>
           </div>

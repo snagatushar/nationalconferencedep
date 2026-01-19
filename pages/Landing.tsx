@@ -37,7 +37,7 @@ const Landing: React.FC = () => {
             alt="Conference Background" 
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black/60"></div>
+          <div className="absolute inset-0 bg-black/30"></div>
         </div>
         <div className="relative max-w-7xl mx-auto px-4 py-24 pt-32 sm:px-6 lg:px-8 flex flex-col items-center text-center w-full min-h-screen justify-between">
           <div className="flex flex-col items-center justify-center flex-grow">
