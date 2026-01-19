@@ -33,12 +33,12 @@ const Footer: React.FC = () => {
             <h4 className="font-semibold mb-4"></h4>
             <div className="bg-white p-2 inline-block rounded-lg">
               <img 
-                src="/brochure-qr.png" 
+                src="/brocherqr.jpeg" 
                 alt="Website QR Code" 
                 className="w-32 h-32 object-contain"
               />
             </div>
-            <p className="text-gray-800 text-xs mt-2">Visit our website</p>
+            <p className="text-gray-800 text-xs mt-2"><strong>Check out our Brochure</strong></p>
           </div>
         </div>
         <div className="pt-8 text-center text-gray-800 text-xs">

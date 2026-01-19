@@ -306,7 +306,7 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {PATRONAGE.chiefPatrons.map((p, i) => (
                   <div key={i} className="text-center p-4 bg-gray-50 rounded-xl border border-gray-100">
-                    <div className="w-36 h-36 rounded-full overflow-hidden mx-auto mb-3 border-2 border-amber-400">
+                    <div className="w-40 h-40 rounded-full overflow-hidden mx-auto mb-3 border-2 border-amber-400">
                       <img src={p.photo} alt={p.name} className="w-full h-full object-cover" />
                     </div>
                     <p className="font-bold text-gray-800 text-sm">{p.name}</p>
@@ -321,7 +321,7 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {PATRONAGE.Patron.map((p, i) => (
                   <div key={i} className="text-center p-4 bg-gray-50 rounded-xl border border-gray-100">
-                    <div className="w-36 h-36 rounded-full overflow-hidden mx-auto mb-3 border-2 border-amber-400">
+                    <div className="w-40 h-40 rounded-full overflow-hidden mx-auto mb-3 border-2 border-amber-400">
                       <img src={p.photo} alt={p.name} className="w-full h-full object-cover" />
                     </div>
                     <p className="font-bold text-gray-800 text-sm">{p.name}</p>
@@ -336,7 +336,7 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {PATRONAGE.conferenceChairs.map((p, i) => (
                   <div key={i} className="text-center p-4 bg-gray-50 rounded-xl border border-gray-100">
-                    <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-3 border-2 border-amber-400">
+                    <div className="w-40 h-40 rounded-full overflow-hidden mx-auto mb-3 border-2 border-amber-400">
                       <img src={p.photo} alt={p.name} className="w-full h-full object-cover" />
                     </div>
                     <p className="font-bold text-gray-800 text-sm">{p.name}</p>
@@ -351,7 +351,7 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {PATRONAGE.AdvisoryCommittee.map((p, i) => (
                   <div key={i} className="text-center p-4 bg-gray-50 rounded-xl border border-gray-100">
-                    <div className="w-36 h-36 rounded-full overflow-hidden mx-auto mb-3 border-2 border-amber-400">
+                    <div className="w-40 h-40 rounded-full overflow-hidden mx-auto mb-3 border-2 border-amber-400">
                       <img src={p.photo} alt={p.name} className="w-full h-full object-cover" />
                     </div>
                     <p className="font-bold text-gray-800 text-sm">{p.name}</p>
@@ -366,7 +366,7 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {PATRONAGE.organizingCommittee.map((p, i) => (
                   <div key={i} className="text-center p-4 bg-gray-50 rounded-xl border border-gray-100">
-                    <div className="w-36 h-36 rounded-full overflow-hidden mx-auto mb-3 border-2 border-amber-400">
+                    <div className="w-40 h-40 rounded-full overflow-hidden mx-auto mb-3 border-2 border-amber-400">
                       <img src={p.photo} alt={p.name} className="w-full h-full object-cover" />
                     </div>
                     <p className="font-bold text-gray-800 text-sm">{p.name}</p>
@@ -401,9 +401,7 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
                   <span className="text-2xl font-bold text-amber-500">₹{FEES['Observer']}</span>
                </div>
             </div>
-            <p className="mt-8 text-center text-sm text-gray-500 italic">
-              * Registration includes conference kit, certificate, and participation in all sessions.
-            </p>
+           
           </div>
         </div>
 
@@ -413,7 +411,7 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
           <div className="relative">
             <h3 className="text-xl font-bold text-amber-700 mb-4 serif uppercase tracking-tight">Certification</h3>
             <p className="text-gray-700 text-base max-w-2xl mx-auto leading-relaxed">
-              Certificates will be issued only to <strong>registered participants</strong>. Certificates will be awarded for Participation, Paper Presentation, Session Chair, and Panelist roles.
+              Certificates will be issued only to <strong>registered participants</strong>. Certificates will be awarded for Participation, Paper Presentation.
             </p>
           </div>
         </div>
