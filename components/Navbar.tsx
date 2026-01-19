@@ -56,8 +56,8 @@ const Navbar: React.FC = () => {
         }`}
         onClick={() => setIsMenuOpen(false)}
       />
-
-      <div className={`relative max-w-7xl mx-auto pl-2 pr-4 sm:px-6 lg:px-8 transition-all duration-300 ${
+{/* fixed */}
+      <div className={`relative max-w-10xl mx-auto pl-2 pr-4 sm:px-6 lg:px-8 transition-all duration-300 ${
         isMenuOpen ? 'bg-white shadow-lg' : ''
       } ${onLightBackground && !isMenuOpen ? 'bg-white/90 backdrop-blur-md shadow-sm' : ''}`}>
         <div className="flex justify-between items-center h-24">

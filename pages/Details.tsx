@@ -244,7 +244,7 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
           <div className="relative max-w-4xl mx-auto text-center">
             <h2 className="text-2xl font-bold text-gray-900 serif mb-4 uppercase tracking-widest text-gray-8  00">Chief Guest</h2>
             <div className="flex flex-col items-center mb-6">
-              <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-amber-400 shadow-lg mb-4">
+              <div className="w-100 h-100 rounded-full overflow-hidden border-4 border-amber-400 shadow-lg mb-4">
                 <img
                   src={CHIEF_GUEST.photo}
                   alt={CHIEF_GUEST.name}
