@@ -276,7 +276,7 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
           </div>
         </div>
 
-        {/* Section: Guests */}
+        {/* Section: Guests
         <div className="group bg-white p-8 md:p-12 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-gray-100 mb-12 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-24 h-24 bg-amber-400 rounded-bl-full -mr-12 -mt-12 transition-all group-hover:scale-150"></div>
           <div className="relative text-center">
@@ -293,7 +293,7 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Section: Patronage */}
         <div id="patronage-section" className="group bg-white p-8 md:p-12 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-gray-100 mb-12 relative overflow-hidden">
