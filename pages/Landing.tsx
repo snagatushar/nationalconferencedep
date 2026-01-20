@@ -87,8 +87,8 @@ const Landing: React.FC = () => {
         <section className="py-24 bg-gray-50 border-y border-gray-100">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold text-gray-900 serif mb-4">Themes & Tracks</h2>
-              <p className="text-gray-500 max-w-2xl mx-auto">Focusing on Next-Gen Technologies, Business Growth, and Sustainability</p>
+              <h2 className="text-4xl font-bold text-gray-900 serif mb-4 ">Themes & Tracks</h2>
+              <p className="text-gray-500 max-w-4xl mx-auto text-2xl">Focusing on Next-Gen Technologies, Business Growth, and Sustainability</p>
             </div>
             
             <div className="grid md:grid-cols-3 gap-8">
@@ -97,10 +97,10 @@ const Landing: React.FC = () => {
                   <div className="absolute top-0 right-0 w-24 h-24 bg-amber-500 rounded-bl-full -mr-12 -mt-12 transition-all group-hover:scale-150"></div>
                   <div className="relative">
                     <span className="inline-block px-3 py-1 bg-white-100 text-amber-500 text-[20px] font-bold uppercase rounded-full mb-4">Track {i+1}</span>
-                    <h3 className="text-xl font-bold mb-4 text-gray-900 serif leading-tight">{track.name}</h3>
+                    <h3 className="text-3xl font-bold mb-4 text-gray-900 serif leading-tight">{track.name}</h3>
                     <ul className="space-y-3">
                       {track.topics.slice(0, 3).map((topic, j) => (
-                        <li key={j} className="text-xs text-gray-500 flex items-start gap-2">
+                        <li key={j} className="text-l text-gray-500 flex items-start gap-2">
                           <span className="text-amber-500 font-bold">•</span>
                           {topic}
                         </li>
@@ -125,13 +125,13 @@ const Landing: React.FC = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex flex-col md:flex-row gap-12 items-center">
               <div className="md:w-1/3">
-                <h2 className="text-3xl font-bold text-gray-900 serif mb-6">Important Dates</h2>
-                <p className="text-gray-600 mb-8">Mark your calendars for these critical milestones. Timely submission is key to paper acceptance.</p>
+                <h2 className="text-4xl font-bold text-gray-900 serif mb-6">Important Dates</h2>
+                <p className="text-gray-600 mb-8 text-xl">Mark your calendars for these critical milestones. Timely submission is key to paper acceptance.</p>
                 <div className="bg-amber-500 text-white p-6 rounded-2xl shadow-lg">
-                  <p className="text-xs text-white uppercase font-bold mb-2">Paper Format</p>
-                  <ul className="text-sm space-y-2  text-white" >
-                    <li>• MS Word document</li>
-                    <li>• 150-200 Words Abstract</li>
+                  <p className="text-xl text-white uppercase font-bold mb-2">Paper Format</p>
+                  <ul className="text-xl space-y-2  text-white" >
+                    <li>• PDF document</li>
+                    <li>• 300-500 Words Abstract</li>
                     <li>• 6-10 Pages Full Paper</li>
                     <li>• Less than 10% Plagiarism</li>
                   </ul>
@@ -147,7 +147,7 @@ const Landing: React.FC = () => {
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-900">{date.event}</h4>
-                        <p className="text-sm text-gray-500">{date.date}</p>
+                        <p className="text-m text-gray-500">{date.date}</p>
                       </div>
                     </div>
                   ))}
@@ -219,7 +219,7 @@ const Landing: React.FC = () => {
                 </a>
               </div>
             </div>
-            <p className="mt-8 text-black text-sm italic">* Certificates will be awarded for Participation, Paper Presentation, and Session Chair roles.</p>
+            <p className="mt-8 text-black text-sm italic">Certificates will be awarded for Participation, Paper Presentation.</p>
           </div>
         </section>
 
