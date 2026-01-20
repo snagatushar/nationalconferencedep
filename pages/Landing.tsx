@@ -17,7 +17,7 @@ const Landing: React.FC = () => {
   };
 
   const patronageItems = PATRONAGE.chiefPatrons;
-  const patronsPerSlide = 3;
+  const patronsPerSlide = 4;
   const patronSlides = Math.ceil(patronageItems.length / patronsPerSlide);
 
   useEffect(() => {
@@ -240,7 +240,7 @@ const Landing: React.FC = () => {
                   {Array.from({ length: patronSlides }).map((_, slideIndex) => (
                     <div
                       key={slideIndex}
-                      className="w-full flex-shrink-0 grid grid-cols-2 md:grid-cols-3 gap-8"
+                      className="w-full flex-shrink-0 grid grid-cols-2 md:grid-cols-4 gap-8"
                     >
                       {patronageItems
                         .slice(

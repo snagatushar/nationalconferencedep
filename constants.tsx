@@ -22,6 +22,7 @@ const CHIEF_PATRONS = [
   { name: "Mrs. Kalpana Padode", role: "Secretary, CDE", photo: "/kalpanamam.jpeg" },
   { name: "Pranav Padode", role: "Chief Executive Officer", photo: "/pranavsir.jpeg" },
   { name: "Kritika Padode Bhandari", role: "Founding Team Member", photo: "/kritikamam.jpeg" },
+  { name: "Isha Kaginalkar", role: "Board Member", photo: "/isha.jpeg" },
   { name: "Edwin Moses", role: "Chief Executive Officer, CDE", photo: "/edwin.jpeg" },
   { name: "Dr. A V Arun Kumar", role: "Director, IFIM College", photo: "/arun.jpeg" }
 ];

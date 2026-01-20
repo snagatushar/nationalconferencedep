@@ -43,8 +43,8 @@ const Details: React.FC = () => {
         <div className="group bg-white p-8 md:p-12 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-gray-100 mb-12 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-24 h-24 bg-amber-400 rounded-bl-full -mr-12 -mt-12 transition-all group-hover:scale-150"></div>
           <div className="relative">
-            <h2 className="text-2xl font-bold text-gray-900 serif mb-6 border-l-4 border-amber-400 pl-4 uppercase tracking-tight">About the College</h2>
-            <p className="text-black leading-relaxed mb-6">
+            <h2 className="text-3xl font-bold text-gray-900 serif mb-6 border-l-4 border-amber-400 pl-4 uppercase tracking-tight">About the College</h2>
+            <p className="text-black leading-relaxed mb-6 text-2xl">
             <strong>IFIM College,</strong> Bengaluru, is a premier institution committed to academic excellence,
 innovation, and societal impact. Through its focus on technology education,
 management studies, and applied research, IFIM College aims to nurture future-ready
@@ -74,8 +74,9 @@ innovation-driven learning aligned with national priorities such as Viksit Bhara
         <div className="group bg-white p-6 sm:p-8 md:p-12 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-gray-100 mb-12 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-24 h-24 bg-amber-400 rounded-bl-full -mr-12 -mt-12 transition-all group-hover:scale-150"></div>
           <div className="relative">
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 serif mb-6 border-l-4 border-amber-400 pl-4 uppercase tracking-tight">About School of Technology</h2>
-            <p className="text-black leading-relaxed mb-6">
+            <h2 className="text-3xl font-bold text-gray-900 serif mb-6 border-l-4 border-amber-400 pl-4 uppercase tracking-tight">About School of Technology</h2>
+           
+            <p className="text-black leading-relaxed mb-6 text-2xl">
               The School of Technology at IFIM Institutions nurtures technically skilled, innovative,
 and industry-ready professionals with a strong foundation in computing, ethics, and
 research. The curriculum aligns with industry standards and emerging technologies,
@@ -110,16 +111,16 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
         <div className="group bg-white p-8 md:p-12 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-gray-100 mb-12 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-24 h-24 bg-amber-400 rounded-bl-full -mr-12 -mt-12 transition-all group-hover:scale-150"></div>
           <div className="relative">
-            <h2 className="text-2xl font-bold text-gray-900 serif mb-6 border-l-4 border-amber-400 pl-4 uppercase tracking-tight">About the Conference</h2>
-            <p className="text-black leading-relaxed mb-6">
+            <h2 className="text-3xl font-bold text-gray-900 serif mb-6 border-l-4 border-amber-400 pl-4 uppercase tracking-tight">About the Conference</h2>
+            <p className="text-black leading-relaxed mb-6 text-2xl">
               As India approaches the centenary of its independence in 2047, the national vision of <strong>Viksit Bharat @2047</strong> calls for inclusive growth driven by innovation, knowledge, and sustainability. Achieving this vision requires active participation from academic institutions as creators of knowledge and responsible innovation.
             </p>
-            <p className="text-black leading-relaxed mb-6">
+            <p className="text-black leading-relaxed mb-6 text-2xl">
               <strong>Bharat Synapse@2047</strong> is conceived as a national interdisciplinary academic platform that brings together faculty members, researchers, and scholars from diverse domains to engage in dialogue on India's future. The conference aims to integrate technology, management, and sustainability to foster research that contributes to national development and societal well-being.
             </p>
             <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-xl">
-               <h3 className="font-bold text-amber-900 mb-2">Vision Alignment: Viksit Bharat @2047</h3>
-               <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm text-amber-800">
+               <h3 className="font-bold text-amber-900 mb-2 text-2xl">Vision Alignment: Viksit Bharat @2047</h3>
+               <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm text-amber-800 text-2xl">
                  <li>• Knowledge-driven economic growth</li>
                  <li>• Digital public infrastructure and innovation</li>
                  <li>• Human capital development</li>
@@ -135,11 +136,11 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
           <div className="group bg-white p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-gray-100 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-24 h-24 bg-amber-400 rounded-bl-full -mr-12 -mt-12 transition-all group-hover:scale-150"></div>
             <div className="relative">
-              <h2 className="text-2xl font-bold text-gray-900 serif mb-6">Call for Paper</h2>
+              <h2 className="text-3xl font-bold text-gray-900 serif mb-6">Call for Paper</h2>
               <p className="text-black text-base mb-4">
                 Faculty members, researchers, doctoral scholars, and postgraduate students are invited to submit original and unpublished research papers aligned with the conference themes.
               </p>
-              <ul className="space-y-3 text-black text-base">
+              <ul className="space-y-3 text-black text-base text-2xl">
                 <li className="flex items-start gap-2">
                   <span className="text-amber-400 font-bold">•</span>
                   Conceptual, empirical, and case-based studies are welcome
@@ -159,10 +160,10 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
           <div className="group bg-white p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-gray-100 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-24 h-24 bg-amber-400 rounded-bl-full -mr-12 -mt-12 transition-all group-hover:scale-150"></div>
             <div className="relative">
-              <h2 className="text-2xl font-bold text-gray-900 serif mb-6 uppercase tracking-tight">Important Dates</h2>
+              <h2 className="text-3xl font-bold text-gray-900 serif mb-6 uppercase tracking-tight">Important Dates</h2>
               <div className="space-y-4">
                 {IMPORTANT_DATES.map((item, i) => (
-                  <div key={i} className="flex justify-between items-center py-2 border-b border-gray-50 last:border-0 text-base">
+                  <div key={i} className="flex justify-between items-center py-2 border-b border-gray-50 last:border-0 text-base ">
                     <span className="text-gray-600">{item.event}</span>
                     <span className="text-amber-700 font-bold bg-amber-50 px-3 py-1 rounded-full">{item.date}</span>
                   </div>
@@ -378,6 +379,69 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
           </div>
         </div>
 
+
+           
+         {/* Section: Awards & Offline Benefits */}
+        <div className="group bg-white p-6 sm:p-8 md:p-12 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-gray-100 mb-12 relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-24 h-24 bg-amber-400 rounded-bl-full -mr-12 -mt-12 transition-all group-hover:scale-150"></div>
+          <div className="relative">
+            <h2 className="text-2xl font-bold text-gray-900 serif mb-8 uppercase tracking-widest text-center">Awards & Offline Benefits</h2>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* Best Paper Award */}
+              <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 hover:border-amber-400 transition-all">
+                <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                  <span className="text-2xl">🏆</span> Best Paper Award
+                </h3>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-2 text-gray-700">
+                    <span className="text-amber-500 font-bold">•</span> Certificate of Excellence
+                  </li>
+                  <li className="flex items-start gap-2 text-gray-700">
+                    <span className="text-amber-500 font-bold">•</span> Special Recognition during the event
+                  </li>
+                  <li className="flex items-start gap-2 text-gray-700">
+                    <span className="text-amber-500 font-bold">•</span> Best Paper Award for Top 3 Paper
+                  </li>
+                </ul>
+              </div>
+
+              {/* Offline Benefits */}
+              <div className="bg-gray-50 p-6 rounded-2xl border border-gray-100 hover:border-amber-400 transition-all">
+                <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                  <span className="text-2xl">🎁</span> Offline Benefits
+                </h3>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-2 text-gray-700">
+                    <span className="text-amber-500 font-bold">•</span> Participation Certificate
+                  </li>
+                  <li className="flex items-start gap-2 text-gray-700">
+                    <span className="text-amber-500 font-bold">•</span> Conference / Event Kit
+                  </li>
+                  <li className="flex items-start gap-2 text-gray-700">
+                    <span className="text-amber-500 font-bold">•</span> Networking with Academicians & Industry Experts
+                  </li>
+                  <li className="flex items-start gap-2 text-gray-700">
+                    <span className="text-amber-500 font-bold">•</span> Interactive Q&A Sessions
+                  </li>
+                  <li className="flex items-start gap-2 text-gray-700">
+                    <span className="text-amber-500 font-bold">•</span> Refreshments & Lunch
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
         {/* Section: Registration Fees */}
         <div className="group bg-white p-8 md:p-12 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-gray-100 mb-12 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-24 h-24 bg-amber-400 rounded-bl-full -mr-12 -mt-12 transition-all group-hover:scale-150"></div>
@@ -404,6 +468,8 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
            
           </div>
         </div>
+
+       
 
         {/* Section: Certification */}
         <div className="group bg-white border border-gray-100 p-8 rounded-3xl text-center shadow-sm hover:shadow-xl transition-all relative overflow-hidden">
