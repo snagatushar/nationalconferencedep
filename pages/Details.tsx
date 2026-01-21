@@ -130,6 +130,15 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
             </div>
           </div>
         </div>
+        <div className="group bg-white p-8 md:p-12 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-gray-100 mb-12 relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-24 h-24 bg-amber-400 rounded-bl-full -mr-12 -mt-12 transition-all group-hover:scale-150"></div>
+          <div className="relative">
+            <h2 className="text-3xl font-bold text-gray-900 serif mb-6 border-l-4 border-amber-400 pl-4 uppercase tracking-tight">Publication & Submission </h2>
+            <p className="text-black leading-relaxed mb-6 text-2xl">
+              Original, unpublished papers (empirical, conceptual, case-based) are welcomed. Selected works will be published in the Bharat Synapse IFIM Book of Extended Abstracts and later with possible reviewing/considering in<strong> SPRINGER</strong> Nature proceedings/NAAC-aligned proceedings.
+            </p>
+          </div>
+        </div>
 
         {/* Section: Call for Paper & Scope */}
         <div id="guidelines-section" className="grid md:grid-cols-2 gap-12 mb-12">
@@ -461,8 +470,8 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
                   <span className="text-2xl font-bold text-amber-500">₹{FEES['Academician/Faculty']}</span>
                </div>
                <div className="flex justify-between items-center p-4 bg-white rounded-2xl border-2 border-amber-400">
-                  <span className="font-medium text-gray-800">Observer</span>
-                  <span className="text-2xl font-bold text-amber-500">₹{FEES['Observer']}</span>
+                  <span className="font-medium text-gray-800">Attendee</span>
+                  <span className="text-2xl font-bold text-amber-500">₹{FEES['Attendee']}</span>
                </div>
             </div>
            

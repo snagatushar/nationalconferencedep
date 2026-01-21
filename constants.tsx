@@ -74,7 +74,7 @@ export const PATRONAGE = {
     { name: "Dr. Arpit D Yadav", role: "", photo: "/Arpit-Yadav_.jpg" },
     { name: "Dr. Ajit M", role: "", photo: "/ajit.jpeg" },
     { name: "Prof. Parth Saarthi", role: "", photo: "/parth.jpeg" },
-    { name: "Prof. Haritha", role: "", photo: "/haritha.jpg" },
+    { name: "Dr. Haritha", role: "", photo: "/haritha.jpg" },
     { name: "Prof. Sinzy Silvester", role: "", photo: "/Prof.-Sinzy-Silvester .webp" },
     { name: "Prof. Lakshmi Saranya", role: "", photo: "/S-Lakshmi-Saranya-265x300.jpg" },
     { name: "Prof. Dilip B", role: "", photo: "/Prof-Dilip-B.webp" },
@@ -104,7 +104,7 @@ export const IMPORTANT_DATES = [
 export const FEES = {
   [ 'Research Scholar' ]: 1000,
   [ 'Academician/Faculty' ]: 1500,
-  [ 'Observer' ]: 500,
+  [ 'Attendee' ]: 500,
   [ 'Industry Delegates' ]: 3000
 };
 
