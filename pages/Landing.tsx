@@ -206,8 +206,8 @@ const Landing: React.FC = () => {
               </div>
               <div className="p-8 bg-white rounded-3xl border-2 border-amber-400 shadow-lg flex flex-col justify-between">
                 <div>
-                  <h4 className="text-gray-700 uppercase text-xs font-bold tracking-widest mb-4">Observer</h4>
-                  <p className="text-4xl font-extrabold mb-6">₹{FEES['Observer']}</p>
+                  <h4 className="text-gray-700 uppercase text-xs font-bold tracking-widest mb-4">Attendee</h4>
+                  <p className="text-4xl font-extrabold mb-6">₹{FEES['Attendee']}</p>
                 </div>
                 <a
                   href={GOOGLE_FORM_URL}
