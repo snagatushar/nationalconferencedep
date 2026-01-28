@@ -121,7 +121,7 @@ export const TRACKS = [
     ]
   },
   {
-    name: "Track 2: From MSMEs to Global Champions",
+    name: "Track 2: Enterpreneurial Opportunities",
     topics: [
       "Achieving Vikshit Bharat 2047: Institutions, Markets & Human Capital",
       "Building World-Class Institutions for India @2047: Governance Reforms, Accountability, and State Capacity",
@@ -132,7 +132,7 @@ export const TRACKS = [
     ]
   },
   {
-    name: "Track 3: Systems for Prosperity",
+    name: "Track 3: Sustainability",
     topics: [
       "Sustainable Development Pathways for Vikshit Bharat 2047",
       "India's Energy Transition Pathway to Net-Zero and Energy Security by 2047",
