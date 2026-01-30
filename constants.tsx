@@ -62,6 +62,7 @@ export const PATRONAGE = {
   AdvisoryCommittee: [
     { name: "Dr. Vidhya Pillai", role: "Asst. Dean, MBA, IFIM College", photo: "/Dr-Vidhya-Pillai .webp" },
     { name: "Prof. Swarnika Dixit", role: "Asst. Dean, BBA-B.COM, IFIM College", photo: "/Swarnika.webp" },
+    { name: "Dr.Ramu Nilagiri", role: "Registrar, IFIM College", photo: "/Ramu.jpeg" },
     { name: "Dr. H.S. Gitanjali", role: "Program Head, B.COM, IFIM College", photo: "/Dr-H.S.-Gitanjali-Shankarappa .webp" },
     { name: "Dr. Sathya Thangavel", role: "HOD, Language Dept, IFIM College", photo: "/english.webp" },
     { name: "Dr. Nataraja N S", role: "Area Chair, Analytics, IFIM College", photo: "/ns.webp" },
