@@ -152,6 +152,7 @@ const Landing: React.FC = () => {
                     </div>
                   ))}
                 </div>
+                <p className="text-sm italic mt-6 text-gray-500">dates are subject to change</p>
               </div>
             </div>
           </div>
