@@ -96,8 +96,8 @@ export const PAPER_FORMAT = {
 };
 
 export const IMPORTANT_DATES = [
-  { event: "Extended Abstract Submission Deadline", date: "10 February 2026" },
-  { event: "Notification of Acceptance", date: "12 February 2026" },
+  { event: "Abstract Submission Deadline", date: "15 February 2026" },
+  { event: "Notification of Acceptance", date: "17 February 2026" },
   { event: "Full Paper Submission Deadline", date: "1 March 2026" },
   { event: "Conference Dates", date: "5–6 March 2026" }
 ];

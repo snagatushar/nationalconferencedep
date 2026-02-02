@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
 
     const updateBackgroundState = () => {
       const details = document.getElementById('details-section');
-      const navHeight = 96;
+      const navHeight = 136;
       const threshold = details ? details.offsetTop - navHeight : window.innerHeight * 0.6;
       setOnLightBackground(window.scrollY + navHeight >= threshold);
     };
@@ -160,6 +160,13 @@ const Navbar: React.FC = () => {
               Register Now
             </a>
           </div>
+        </div>
+      </div>
+
+      {/* News Flash Bar - Below Navbar */}
+      <div className="bg-amber-400 text-white overflow-hidden py-2 relative z-40">
+        <div className="animate-marquee inline-block whitespace-nowrap font-bold text-sm md:text-base tracking-wide">
+          📢 NEWS FLASH: Abstract Submission Deadline: 15 February 2026 — Submit your papers now! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📢 NEWS FLASH: Abstract Submission Deadline: 15 February 2026 — Submit your papers now!
         </div>
       </div>
     </nav>

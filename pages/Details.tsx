@@ -218,6 +218,14 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
              <div><span className="text-gray-400 text-xl ">Line Spacing:</span> <span className="font-bold text-xl">{PAPER_FORMAT.lineSpacing}</span></div>
              <div><span className="text-gray-400 text-xl">References Style:</span> <span className="font-bold text-xl">{PAPER_FORMAT.referenceStyle}</span></div>
           </div>
+          
+          <div className="mt-6 p-4 bg-amber-50 rounded-xl border border-amber-100">
+            <h4 className="font-bold text-amber-800 text-xl mb-2">Author Guidelines</h4>
+            <ul className="list-disc list-inside space-y-2 text-gray-700 text-xl">
+              <li>Maximum 3 members allowed (Author + Co-authors).</li>
+              <li>Co-authors can register under the <span className="font-semibold text-amber-700">Attendee</span> category.</li>
+            </ul>
+          </div>
           </div>
         </div>
 
