@@ -164,7 +164,7 @@ const Navbar: React.FC = () => {
       </div>
 
       {/* News Flash Bar - Below Navbar */}
-      <div className="bg-amber-400 text-white overflow-hidden py-2 relative z-40">
+      <div className="bg-amber-400 text-white overflow-hidden py-1 relative z-40">
         <div className="animate-marquee inline-block whitespace-nowrap font-bold text-sm md:text-base tracking-wide">
           📢 NEWS FLASH: Abstract Submission Deadline: 15 February 2026 — Submit your papers now! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📢 NEWS FLASH: Abstract Submission Deadline: 15 February 2026 — Submit your papers now!
         </div>
