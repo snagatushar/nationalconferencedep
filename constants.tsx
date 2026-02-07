@@ -122,25 +122,25 @@ export const TRACKS = [
     ]
   },
   {
-    name: "Track 2: Enterpreneurial Opportunities",
+    name: "Track 2: AI in Business & Entrepreneurship",
     topics: [
-      "Achieving Vikshit Bharat 2047: Institutions, Markets & Human Capital",
+      "Achieving Viksit Bharat@2047: Institutions, Markets & Human Capital",
       "Building World-Class Institutions for India @2047: Governance Reforms, Accountability, and State Capacity",
       "Transforming India's Human Capital for a Knowledge Economy by 2047",
       "MSMEs to Global Champions: Strategic Pathways for Competitive Indian Enterprises by 2047",
       "Public Policy Design for Inclusive and Sustainable Economic Growth in India @2047",
-      "Future-Ready Leadership and Workforce Management in India's Transition to a High-Income Economy"
+      
     ]
   },
   {
-    name: "Track 3: Sustainability",
+    name: "Track 3: AI integrated with Law",
     topics: [
       "Sustainable Development Pathways for Vikshit Bharat 2047",
       "India's Energy Transition Pathway to Net-Zero and Energy Security by 2047",
       "Climate-Resilient Agriculture and Food Systems for India's Future Population",
       "Sustainable Urbanization and Infrastructure for India @2047",
       "Circular Economy and Resource Efficiency as Pillars of India's Long-Term Growth",
-      "Water Security, Climate Risk, and Institutional Solutions for India @2047"
+      
     ]
   }
 ];
