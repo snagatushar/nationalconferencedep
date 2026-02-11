@@ -56,7 +56,7 @@ export const PATRONAGE = {
     { name: "Dr. Aswini Patro", role: "Principal, IFIM Law College", photo: "/aswini.webp" }
   ],
   conferenceChairs: [
-    { name: "Dr. Vishal C", role: "Associate Professor, IFIM College", photo: "/Dr-Vishal-C.webp" },
+    { name: "Dr. Vishal C", role: "Associate Professor, IFIM College", photo: "/Vishalsir.jpeg" },
     { name: "Dr. Sunethra Chatterjee", role: "Assistant Professor, IFIM College", photo: "/mam.jpeg" }
   ],
   AdvisoryCommittee: [
