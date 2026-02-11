@@ -67,7 +67,8 @@ export const PATRONAGE = {
     { name: "Dr. Sathya Thangavel", role: "HOD, Language Dept, IFIM College", photo: "/english.webp" },
     { name: "Dr. Nataraja N S", role: "Area Chair, Analytics, IFIM College", photo: "/ns.webp" },
     { name: "Prof. Nikil Gupta", role: "Professor of Practice, IFIM College", photo: "/Prof-Nikhil-Gupta- .webp" },
-    { name: "Prof. Pooja Ogale", role: "Asst. Professor, IFIM Law College", photo: "/Pooja-Ogle-Law-265x300.jpg" }
+    { name: "Prof. Pooja Ogale", role: "Asst. Professor, IFIM Law College", photo: "/Pooja-Ogle-Law-265x300.jpg" },
+    { name: "Dr. S. ChandraSekhar Subramanyam", role: "Sr. Professor, IFIM Business School", photo: "/chandrashekar.jpeg"}
   ],
   organizingCommittee: [
     { name: "Dr. Raj Kumar", role: "", photo: "/raj.webp" },
@@ -96,8 +97,8 @@ export const PAPER_FORMAT = {
 };
 
 export const IMPORTANT_DATES = [
-  { event: "Abstract Submission Deadline", date: "15 February 2026" },
-  { event: "Notification of Acceptance", date: "17 February 2026" },
+  { event: "Abstract Submission Deadline", date: "20 February 2026" },
+  { event: "Notification of Acceptance", date: "22 February 2026" },
   { event: "Full Paper Submission Deadline", date: "1 March 2026" },
   { event: "Conference Dates", date: "5–6 March 2026" }
 ];

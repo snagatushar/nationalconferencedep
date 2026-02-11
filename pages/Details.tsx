@@ -130,7 +130,7 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
             </div>
           </div>
         </div>
-        <div className="group bg-white p-8 md:p-12 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-gray-100 mb-12 relative overflow-hidden">
+        {/* <div className="group bg-white p-8 md:p-12 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-gray-100 mb-12 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-24 h-24 bg-amber-400 rounded-bl-full -mr-12 -mt-12 transition-all group-hover:scale-150"></div>
           <div className="relative">
             <h2 className="text-3xl font-bold text-gray-900 serif mb-6 border-l-4 border-amber-400 pl-4 uppercase tracking-tight">Publication & Submission </h2>
@@ -138,7 +138,7 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
               Original, unpublished papers (empirical, conceptual, case-based) are welcomed. Selected works will be published in the Bharat Synapse IFIM Book of Extended Abstracts and later with possible reviewing/considering in<strong> SPRINGER</strong> Nature proceedings/NAAC-aligned proceedings.
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* Section: Call for Paper & Scope */}
         <div id="guidelines-section" className="grid md:grid-cols-2 gap-12 mb-12">
@@ -220,12 +220,46 @@ intelligence, cloud computing, cybersecurity, and web technologies. Through proj
           </div>
           
           <div className="mt-6 p-4 bg-amber-50 rounded-xl border border-amber-100">
-            <h4 className="font-bold text-amber-800 text-xl mb-2">Author Guidelines</h4>
-            <ul className="list-disc list-inside space-y-2 text-gray-700 text-xl">
-              <li>Maximum 3 members allowed (Author + Co-authors).</li>
-              <li>Co-authors can register under the <span className="font-semibold text-amber-700">Attendee</span> category.</li>
-            </ul>
-          </div>
+             <h4 className="font-bold text-amber-800 text-xl mb-2">Author Guidelines</h4>
+             <ul className="list-disc list-inside space-y-2 text-gray-700 text-xl">
+               <li>Maximum 3 members allowed (Author + Co-authors).</li>
+               <li>Co-authors can register under the <span className="font-semibold text-amber-700">Attendee</span> category.</li>
+             </ul>
+           </div>
+           </div>
+        </div>
+
+        {/* Section: Publication & Submission Information */}
+        <div className="group bg-white p-6 sm:p-8 md:p-12 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-gray-100 mb-12 relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-24 h-24 bg-amber-400 rounded-bl-full -mr-12 -mt-12 transition-all group-hover:scale-150"></div>
+          <div className="relative">
+            <h2 className="text-3xl font-bold text-gray-900 serif mb-6 border-l-4 border-amber-400 pl-4 uppercase tracking-tight">Publication & Submission – Additional Information</h2>
+            
+            <div className="mb-8">
+               <p className="text-gray-900 leading-relaxed text-xl">
+                 <span className="font-bold"></span>
+                 Selected manuscripts from the conference will be considered for publication after undergoing a rigorous standard peer-review process, following the same evaluation criteria applied to regular journal submissions. We strongly encourage the submission of novel, innovative, and high-quality research contributions that align with the scope and academic standards of the journal.
+               </p>
+             </div>
+
+            <div className="bg-amber-50 rounded-2xl p-8 border border-amber-100 shadow-inner">
+              <h3 className="text-2xl font-bold text-amber-900 mb-6 flex items-center gap-3">
+                <span className="text-3xl">🌟</span> Publication Opportunities Include:
+              </h3>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {[
+                  "Bharat Synapse IFIM – Book of Extended Abstracts",
+                  // "SPRINGER Nature Proceedings (NAAC-Aligned Proceedings)",
+                  "Elsevier-Indexed Journals (Subject to Editorial Review)"
+                ].map((item, index) => (
+                  <div key={index} className="flex items-start gap-3 p-4 bg-white rounded-xl shadow-sm border border-amber-50">
+                    <div className="mt-1.5 w-2 h-2 rounded-full bg-amber-400 shrink-0"></div>
+                    <p className="font-semibold text-gray-800 text-lg leading-snug">{item}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
 
