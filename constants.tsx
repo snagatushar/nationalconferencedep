@@ -136,11 +136,12 @@ export const TRACKS = [
   {
     name: "Track 3: AI integrated with Law",
     topics: [
-      "Sustainable Development Pathways for Vikshit Bharat 2047",
-      "India's Energy Transition Pathway to Net-Zero and Energy Security by 2047",
-      "Climate-Resilient Agriculture and Food Systems for India's Future Population",
-      "Sustainable Urbanization and Infrastructure for India @2047",
-      "Circular Economy and Resource Efficiency as Pillars of India's Long-Term Growth",
+      "AI-Enabled Justice System for Viksit Bharat @2047.",
+      "Constitutional Governance & AI in Democratic India.",
+      "AI in Criminal Justice & Internal Security.",
+      "Regulating AI for Innovation & Inclusive Growth.",
+      "From Courts to Code: Reimagining Indian Constitutionalism in the Age of AI.",
+      "AI, Law and Nation-Building: India’s Roadmap to future India",
       
     ]
   }
